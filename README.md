@@ -20,3 +20,22 @@ npm run dev
 Screenshot
 ![Lexi Frontend Screenshot](./Sample.png)
 ![Lexi Frontend Screenshot](./pdfpage.png)
+
+ Citation Linking Handling
+
+- Each citation is displayed below the AI-generated answer with relevant text and the document source.
+- Citations are linked using:
+
+  ```jsx
+  <a
+    href={c.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 underline"
+  >
+    {c.source}
+  </a>
+
+- Clicking a citation opens the SharePoint-hosted PDF document in a new tab for user review, respecting SharePoint’s security restrictions.
+
+- This ensures clean user experience while enabling easy reference to source documents.
