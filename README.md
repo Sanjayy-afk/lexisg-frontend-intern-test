@@ -1,12 +1,22 @@
-# React + Vite
+⚖️ LexiSG Frontend Intern Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **clean Vite + React** implementation of the **Lexi Legal Assistant**, built as part of the Lexi Frontend Intern Task.
 
-Currently, two official plugins are available:
+ How to run the project locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1️. Clone the repository:
+```
+git clone https://github.com/Sanjayy-afk/lexisg-frontend-intern-test.git
+cd lexisg-frontend-intern-test 
+```
+2️. Install dependencies:
+```
+npm install
+```
+3️. Run the project:
+```
+npm run dev
+```
+Screenshot
+![Lexi Frontend Screenshot](./Sample.png)
+![Lexi Frontend Screenshot](./pdfpage.png)
